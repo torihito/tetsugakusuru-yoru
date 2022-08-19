@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  height:90px;
+  height:auto;
 }
 
 .title {
@@ -85,5 +85,5 @@ main {
 }
 footer {
   background-color:#080364;
-  height:270px;
+  height:auto;
 }
