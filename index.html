@@ -6,7 +6,23 @@
     <title>哲学するヨル。</title>
     <link rel="stylesheet" href="stylesheet.css">
     
+    const options = {
+      bottom: '64px', // default: '32px'
+      right: 'unset', // default: '32px'
+      left: '32px', // default: 'unset'
+      time: '3s', // default: '0.3s'
+      mixColor: '#fff', // default: '#fff'
+      backgroundColor: '#fff',  // default: '#fff'
+      buttonColorDark: '#100f2c',  // default: '#100f2c'
+      buttonColorLight: '#fff', // default: '#fff'
+      saveInCookies: false, // default: true,
+      label: '🌙', // default: ''
+      autoMatchOsTheme: true // default: true
+    }
+     
     
+    const darkmode = new Darkmode(options);
+    darkmode.showWidget();
     
 
 
@@ -19,7 +35,7 @@
     <p>” <a>じぶん</a> ”ってなんなんだろう。</p>
     <p>もし、よかったら… 、あなたの話を聞かせてほしい… 。</p>
     
-    <h2>わたしがわたしである記録</h2>
+    <h2 class="right">わたしがわたしである記録</h2>
     <p>わたしも日々</p>
     <p>いろいろなことを思い</p>
     <p>さまざまなことを感じます。</p>
@@ -31,7 +47,7 @@
     <p>それを与えてくれる</p>
     <p><a>かけがえのない存在。</a></p>
 
-    <h2>鳥さんの役目</h2>
+    <h2 class="right">鳥さんの役目</h2>
     <p>鳥に話すと<a>羽ばたけるかも</a>しれない。</p>
     <p>いろんな人の考えをきき</p>
     <p>あなたの中に取りこんでください。</p>
