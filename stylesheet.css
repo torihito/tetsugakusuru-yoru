@@ -45,14 +45,12 @@ main {
 .right1 h2 {
   height:auto;
   width:auto;
-  float: right;
   text-align: right;
 }
 
 .right1 p {
   height:auto;
   width:auto;
-  float: right;
   text-align: right;
 }
 
@@ -69,14 +67,12 @@ main {
 .right2 h2 {
   height:auto;
   width:auto;
-  float: right;
   text-align: right;
 }
 
 .right2 p {
   height:auto;
   width:auto;
-  float: right;
   text-align: right;
 }
 footer {
