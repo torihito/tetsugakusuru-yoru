@@ -16,11 +16,11 @@ header {
 .title {
   text-shadow: 0 0 10px #ffffff,
   0 0 20px #ffffff,
-  0 0 30px #02014b,
-  0 0 40px #02014b,
-  0 0 50px #02014b,
-  0 0 60px #02014b,
-  0 0 70px #02014b;
+  0 0 30px #216aca,
+  0 0 40px #216aca,
+  0 0 50px #216aca,
+  0 0 60px #216aca,
+  0 0 70px #216aca;
   font-size: 60px;
   color: #ffffff;
 }
@@ -34,16 +34,25 @@ h2 {
   padding-top: 3cm;
 }
 
-.right1 {
+.right1 h2 {
   float: right;
   text-align: right;
 }
 
-.right2 {
+.right1 p {
   float: right;
   text-align: right;
 }
 
+.right2 h2 {
+  float: right;
+  text-align: right;
+}
+
+.right2 p {
+  float: right;
+  text-align: right;
+}
 footer {
   background-color:#080364;
   height:270px;
