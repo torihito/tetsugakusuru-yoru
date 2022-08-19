@@ -8,6 +8,8 @@ header {
 }
 
 .title {
+  height:auto;
+  width:auto;
   font-size:36px;
   float:left;
   padding: 20px 40px;
@@ -30,26 +32,50 @@ main {
   height:600px;
 }
 
-h2 {
-  padding-top: 3cm;
+.left1 h2 {
+  height:auto;
+  width:auto;
+}
+
+.left1 p {
+  height:auto;
+  width:auto;
 }
 
 .right1 h2 {
+  height:auto;
+  width:auto;
   float: right;
   text-align: right;
 }
 
 .right1 p {
+  height:auto;
+  width:auto;
   float: right;
   text-align: right;
 }
 
+.left2 h2 {
+  height:auto;
+  width:auto;
+}
+
+.left2 p {
+  height:auto;
+  width:auto;
+}
+
 .right2 h2 {
+  height:auto;
+  width:auto;
   float: right;
   text-align: right;
 }
 
 .right2 p {
+  height:auto;
+  width:auto;
   float: right;
   text-align: right;
 }
