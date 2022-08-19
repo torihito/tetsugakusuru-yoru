@@ -2,13 +2,13 @@ body {
   font-family: "Avenir Next";
 }
 
-.title {
+.header-logo {
   font-size:36px;
   float:left;
-  padding: 20px 40px;
+  padding: 20px 100px;
 }
 
-.title{
+.header-logo {
   text-shadow: 0 0 10px #ffffff,
   0 0 20px #ffffff,
   0 0 30px #02014b,
