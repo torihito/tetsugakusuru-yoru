@@ -5,6 +5,11 @@ header{
     background-position: center;
 }
 
+.header img {
+    background-size: cover;
+    background-position: center;
+}
+
 .head_container{
     padding: 15px;
     display: flex;
