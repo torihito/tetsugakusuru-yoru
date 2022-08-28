@@ -5,25 +5,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <title>哲学するヨル。</title>
         <link rel="stylesheet" href="stylesheet.css">
+		<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+		<link rel ="stylesheet" href="all.min.css">
     </head>
     <body>
         <header class="darkmode-ignore header">
-            <section class="head_container">
-            <h1>哲学するヨル。</h1>                
+	        <section class="head_container">
+                    <h1 id="title">哲学するヨル。</h1>
+                
                 <nav>
                     <ul>
-                        <li><a href="#">哲学するヨル。とは</a></li>
-                        <li><a href="#">おじじの言葉</a></li>
-                        <li><a href="#">配信リクエスト</a></li>
+                        <li><a href="https://twitter.com/roadb42?t=sYsae7geY9G1vJVyCJjqEA&s=09" class="btn twitter"><span class="fa-brands fa-twitter"></span></a> <a href="#about">about</a></li>
+                        <li><a href="https://note.com/roadb_42" class="btn note"><span class="fa-solid fa-book-open"></span></a> <a href="#note">note</a></li>
+                        <li><a class="fa-solid fa-user-plus btn"></a> <a href="#team">team</a></li>
+						<li><a href="https://spoon.onelink.me/Uuzo/7zwolgmt" class="btn radio"><span class="fa-solid fa-headphones"></span></a> <a href="#radio">radio</a></li>
                     </ul>
-                </nav>                
+                </nav>
+                <!--<a href="#" class="btn twitter">
+					<span class="fa fa-twitter"></span>
+				</a>
+				<a href="#" class="btn note">
+                    <span class="fa-solid fa-book"></span>
+				</a>-->
             </section>
             <h2>踏まれても　根で良く忍べ　道草の　やがて花咲く　春も来るらん</h2>
+
         </header>
 
 		<main>
 		    <section class="sec-about">
-				<h2>人生は捨てたもんじゃない</h2>
+				<h2 id="about">人生は捨てたもんじゃない</h2>
 				<div class="sec-about-detail">
 					<ul>
 						<p>いい物語があって</p>
@@ -36,14 +47,17 @@
 						    <p>そんなことを考えていると</p>
 						    <p>楽しくて仕方がない</p>
 						</div>
-					</ul>					
-					<img src="img/0003.jpg">					
+					</ul>
+					
+					<img src="img/0003.jpg">
+					
 				</div>
-		    </section>
-		    <section class="sec-note">
-			<h2>記録</h2>
-                             <div class="sec-note-detail">
-				  <img src="img/0008.jpg">
+					
+			</section>
+			<section class="sec-note">
+				<h2 id="note">記録</h2>
+                <div class="sec-note-detail">
+					<img src="img/0008.jpg">
 					<ul>
 						<p>わたしも日々</p>
 						<p>いろいろなことを思い</p>
@@ -61,7 +75,7 @@
 
 			</section>
 			<section class="sec-team">
-				<h2>知りあい？友だち？なんだっていい</h2>
+				<h2 id="team">知りあい？友だち？なんだっていい</h2>
                 <div class="sec-team-detail">
 					<ul>
 						<p>よび方なんて<br>どうだっていい</p>
@@ -80,7 +94,7 @@
 
 			</section>
 			<section class="sec-radio">
-				<h2>鳥さんの役目</h2>
+				<h2 id="radio">鳥さんの役目</h2>
                 <div class="sec-radio-detail">
 					<img src="img/0012.jpeg">
 					<ul>
@@ -92,13 +106,17 @@
 					    <div class="darkmode-ignore shadow2">
 						    <!--<p>” 繋がっているようで<br>　　　繋がっていない ” から</p>-->
 						    <!--<p>” 繋がっていないようで<br>　　　　　繋がっている ” へ</p>-->
-							<p>心が少しホッとするような</p>
+							<p>心が少し "ほっ…" と<br>するような</p>
 						    <p>そんな居場所であり続けたい</p>
 						</div>
 					</ul>
 					
 				</div>
 			</section>
+			<div class="message-wrapper">
+
+			</div>
+			<div id="page_top"><a href="#title"></a></div>
 		</main>
 		<footer>
 			<p>考えよう　感じよう　そして語ろう</p>
@@ -108,9 +126,10 @@
         <script>
 		 new Darkmode().showWidget();
          const options = {
+		 bottom: '90px',
+		 right: '20px',
          time: '2s', // default: '0.3s'         
-         label: '暗', // default: ''
-		 
+         label: '🌙' // default: '' 
          }
          const darkmode = new Darkmode(options);
          darkmode.showWidget();   
