@@ -27,18 +27,18 @@ header{
     font-family:'Times New Roman', Times, serif;
 }
 
-header ul {
+.header ul {
     list-style-type: none;
 }
 
-header ul li {
+.header ul li {
     padding-right: 80px;
 }
 
-header ul li a {
+.header ul li a {
     text-decoration: none;
 
-header h2{
+.header h2{
     text-shadow: 0 0 10px #ffffff,
     0 0 20px #ffffff,
     0 0 30px #e76902,
