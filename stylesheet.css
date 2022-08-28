@@ -6,13 +6,13 @@ header{
 }
 
 .header img {
-    
-    display: flex;
+    position: relative;
     background-size: cover;
     background-position: center;
 }
 
 .head_container{
+    position: absolute;
     padding: 15px;
     display: flex;
     justify-content: space-between;
