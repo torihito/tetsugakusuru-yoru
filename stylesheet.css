@@ -10,10 +10,9 @@ header{
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    
 }
 
-h1 {
+.header h1{
     text-shadow: 0 0 10px #ffffff,
     0 0 20px #ffffff,
     0 0 30px #055aaa,
@@ -38,7 +37,6 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-}
 
 header h2{
     text-shadow: 0 0 10px #ffffff,
