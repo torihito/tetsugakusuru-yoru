@@ -6,6 +6,8 @@ header{
 }
 
 .header img {
+    
+    display: flex;
     background-size: cover;
     background-position: center;
 }
