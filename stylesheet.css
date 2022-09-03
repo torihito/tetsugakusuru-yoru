@@ -377,9 +377,13 @@ footer p {
         text-align: end;        
     }
     
+    main h2{
+        margin-top: 40px;
+    }
+
     .sec-about h2{
         text-align: left;
-        font-size: 20px;
+        font-size: 30px;
         padding-left: 0px;
     }
 
@@ -397,7 +401,7 @@ footer p {
     
     .sec-note h2{
         text-align: left;
-        font-size: 20px;
+        font-size: 30px;
         padding-right: 0px;
     }
     
@@ -417,7 +421,7 @@ footer p {
     
     .sec-team h2{
         text-align: left;
-        font-size: 20px;
+        font-size: 30px;
         padding-left: 0px;
     }
     
@@ -435,7 +439,7 @@ footer p {
     
     .sec-radio h2{
         text-align: left;
-        font-size: 20px;
+        font-size: 30px;
         padding-right: 0px;
     }
     
