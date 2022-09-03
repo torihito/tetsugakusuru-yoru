@@ -482,7 +482,7 @@ footer p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
+    }
 
     .shadow {
         text-align: left;
@@ -496,4 +496,4 @@ footer p {
     main section ul{
         margin-left: 0%;
     }
-  
+}
