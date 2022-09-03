@@ -399,7 +399,7 @@ footer p {
     }
     
     main{
-        height: 4500px;
+        height: 4000px;
     }
 
     main h2{
@@ -408,13 +408,12 @@ footer p {
 
     .sec-about h2{
         text-align: left;
-        font-size: 30px;
+        font-size: 20px;
         padding-left: 0px;
     }
 
     .sec-about-detail{
         display: block;
-        padding-left: 0px;
     }
     
     .sec-about-detail img{
@@ -426,14 +425,13 @@ footer p {
     
     .sec-note h2{
         text-align: left;
-        font-size: 30px;
+        font-size: 20px;
         padding-right: 0px;
     }
     
     .sec-note-detail{
         display: block;
         text-align: left;
-        padding-right: 0px;
     }
 
 
@@ -446,13 +444,12 @@ footer p {
     
     .sec-team h2{
         text-align: left;
-        font-size: 30px;
+        font-size: 20px;
         padding-left: 0px;
     }
     
     .sec-team-detail{
         display: block;
-        padding-left: 0px;
     }
     
     .sec-team-detail img{
@@ -464,14 +461,13 @@ footer p {
     
     .sec-radio h2{
         text-align: left;
-        font-size: 30px;
+        font-size: 20px;
         padding-right: 0px;
     }
     
     .sec-radio-detail{
         display: block;
         text-align: left;
-        padding-right: 0px;
     }
 
     .sec-radio-detail img{
@@ -491,4 +487,8 @@ footer p {
         margin-right: 10%;
         padding-top: 10%;
     }
+    
+    main section ul{
+        margin-left: 0%;
+}
   }
