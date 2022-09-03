@@ -394,8 +394,8 @@ footer p {
     }
 
     .header h2{
-        font-size: 18px;
-        text-align: right;        
+        font-size: 15px;
+        text-align: left;        
     }
     
     main{
@@ -403,12 +403,12 @@ footer p {
     }
 
     main h2{
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
    .sec-about h2{
     text-align: left;
-    padding-right: 20px;
+    padding-right: 0px;
     }
 
     .sec-about-detail{
@@ -423,7 +423,7 @@ footer p {
 
     .sec-note h2{
         text-align: left;
-        padding-right: 20px;
+        padding-right: 0px;
     }
 
     .sec-note-detail{
@@ -439,7 +439,7 @@ footer p {
 
     .sec-team h2{
         text-align: left;
-        padding-right: 20px;
+        padding-right: 0px;
     }
 
     .sec-team-detail{
@@ -455,7 +455,7 @@ footer p {
 
     .sec-radio h2{
         text-align: left;
-        padding-right: 20px;
+        padding-right: 0px;
     }
 
     .sec-radio-detail{
