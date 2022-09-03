@@ -32,12 +32,13 @@ header{
 }
 
 /*.menu-icon {
+    display: none;
     color: white;
     float: right;
     font-size: 25px;
     padding: 21px 0;
-    /* displayをnoneに指定してください *
-    display: none;
+    /*displayをnoneに指定してください *
+    
   }*/
 
 .btn {
@@ -126,76 +127,73 @@ main section ul p a {
 }
 
 .sec-about h2{
-    text-align: right;
-    padding-left: 40px;
+    text-align: center;
+    padding-right: 40px;
 }
 
 .sec-about-detail{
     display: flex;
+    text-align: center;
+    padding-right: 40px;
 }
 
 .sec-about-detail img{
     width: 60%; 
     display: block;
-    margin-right: auto;
-    margin-left: 5%;
 }
 
 .sec-note h2{
-    text-align: right;
+    text-align: center;
     padding-right: 40px;
 }
 
 .sec-note-detail{
     display: flex;
-    text-align: right;
+    text-align: center;
     padding-right: 40px;
 }
 
 .sec-note-detail img{
     width: 60%; 
     display: block;
-    margin-right: auto;
-    margin-left: 5%;
-   
 }
 
 .sec-team h2{
-    text-align: right;
-    padding-left: 40px;
+    text-align: center;
+    padding-right: 40px;
 }
 
 .sec-team-detail{
     display: flex;
+    text-align: center;
+    padding-right: 40px;
 }
 
 .sec-team-detail img{
     width: 60%; 
     display: block;
-    margin-right: auto;
-    margin-left: 5%;
 }
 
 .sec-radio h2{
-    text-align: right;
+    text-align: center;
     padding-right: 40px;
 }
 
 .sec-radio-detail{
     display: flex;
-    text-align: right;
+    text-align: center;
     padding-right: 40px;
 }
 
 .sec-radio-detail img{
     width: 60%; 
     display: block;
-    margin-right: auto;
-    margin-left: 5%;
 }
 
 p {
+    
     margin: 15px;
+    text-align: center;
     padding: 0;
     border: 0;
     font-size: 18px;
@@ -207,9 +205,12 @@ p {
     margin-inline-end: 0px;
 }
 
-.shadow {
-    text-align: right;
+main section ul{
     margin-left: 10%;
+}
+
+.shadow {
+    text-align: center;
     padding-top: 20%;
 }
 
@@ -221,7 +222,7 @@ p {
     padding: 0;
     border: 0;
     font-size: 18px;
-   
+
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -230,8 +231,7 @@ p {
 }
 
 .shadow2 {
-    text-align: left;
-    margin-right: 10%;
+    text-align: center;
     padding-top: 20%;
     
 }
@@ -386,8 +386,8 @@ footer p {
     .menu-icon {
         display: block;
         z-index: 5;
-      }*/
-    
+      }
+    */
     .header ul li {
         padding-right: 10px;
         display: none;
@@ -399,7 +399,7 @@ footer p {
     }
     
     main{
-        height: 3500px;
+        height: 4500px;
     }
 
     main h2{
