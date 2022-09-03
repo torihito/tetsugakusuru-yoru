@@ -394,88 +394,81 @@ footer p {
     }
 
     .header h2{
-        font-size: 15px;
-        text-align: end;        
+        font-size: 18px;
+        text-align: right;        
     }
     
     main{
-        height: 4000px;
+        height: 3500px;
     }
 
     main h2{
         margin-top: 40px;
     }
 
-    .sec-about h2{
-        text-align: left;
-        font-size: 20px;
-        padding-left: 0px;
+   .sec-about h2{
+    text-align: left;
+    padding-right: 20px;
     }
 
     .sec-about-detail{
         display: block;
-    }
-    
-    .sec-about-detail img{
-        width: 100%; 
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .sec-note h2{
-        text-align: left;
-        font-size: 20px;
-        padding-right: 0px;
-    }
-    
-    .sec-note-detail{
-        display: block;
         text-align: left;
     }
 
+    .sec-about-detail img{
+        width: 100%; 
+        display: block;
+    }
+
+    .sec-note h2{
+        text-align: left;
+        padding-right: 20px;
+    }
+
+    .sec-note-detail{
+        display: block;
+        text-align: left;
+        padding-right: 20px;
+    }
 
     .sec-note-detail img{
         width: 100%; 
         display: block;
-        margin-left: auto;
-        margin-right: auto;      
     }
-    
+
     .sec-team h2{
         text-align: left;
-        font-size: 20px;
-        padding-left: 0px;
+        padding-right: 20px;
     }
-    
+
     .sec-team-detail{
         display: block;
+        text-align: left;
+        padding-right: 20px;
     }
-    
+
     .sec-team-detail img{
         width: 100%; 
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
-    
+
     .sec-radio h2{
         text-align: left;
-        font-size: 20px;
-        padding-right: 0px;
+        padding-right: 20px;
     }
-    
+
     .sec-radio-detail{
         display: block;
         text-align: left;
+        padding-right: 20px;
     }
 
     .sec-radio-detail img{
         width: 100%; 
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-    } 
+    }
+
 
     .shadow {
         text-align: right;
@@ -490,5 +483,5 @@ footer p {
     
     main section ul{
         margin-left: 0%;
-}
-  }
+    }
+  
