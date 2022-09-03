@@ -419,6 +419,7 @@ footer p {
     .sec-about-detail img{
         width: 100%; 
         display: block;
+        text-align: center;
     }
 
     .sec-note h2{
@@ -435,6 +436,7 @@ footer p {
     .sec-note-detail img{
         width: 100%; 
         display: block;
+        text-align: center;
     }
 
     .sec-team h2{
@@ -451,6 +453,7 @@ footer p {
     .sec-team-detail img{
         width: 100%; 
         display: block;
+        text-align: center;
     }
 
     .sec-radio h2{
@@ -467,6 +470,7 @@ footer p {
     .sec-radio-detail img{
         width: 100%; 
         display: block;
+        text-align: center;
     }
 
     p {
