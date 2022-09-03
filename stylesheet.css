@@ -31,14 +31,14 @@ header{
     font-family:'Times New Roman', Times, serif;
 }
 
-.menu-icon {
+/*.menu-icon {
     color: white;
     float: right;
     font-size: 25px;
     padding: 21px 0;
-    /* displayをnoneに指定してください */
+    /* displayをnoneに指定してください *
     display: none;
-  }
+  }*/
 
 .btn {
     display: inline;
@@ -379,14 +379,14 @@ footer p {
         margin-left: 10px;
     }
 
-    .header-right {
+    /*.header-right {
         display: none;
       }
     
     .menu-icon {
         display: block;
         z-index: 5;
-      }
+      }*/
     
     .header ul li {
         padding-right: 10px;
