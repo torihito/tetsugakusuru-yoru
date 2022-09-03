@@ -355,27 +355,72 @@ footer p {
 
     .header h1{
         font-size: 40px;
-        margin-top: 10px;
-        margin-left: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
     }
 
     .header ul li {
         padding-right: 0px;
     }
 
+    .header h2{
+        font-size: 15px;
+        text-align: right;        
+    }
+    
+    .sec-about h2{
+        text-align: left;
+        /*padding-left: 40px;*/
+    }
+
+    .sec-about-detail{
+        display: block;
+    }
     .sec-about-detail img{
         width: 100%; 
         display: block;
     }
+    
+    .sec-note h2{
+        text-align: right;
+        /*padding-right: 40px;*/
+    }
+    
+    .sec-note-detail{
+        display: block;
+        text-align: right;
+        /*padding-right: 40px;*/
+    }
+
 
     .sec-note-detail img{
         width: 100%; 
         display: block;       
     }
-
+    
+    .sec-team h2{
+        text-align: left;
+        /*padding-left: 40px;*/
+    }
+    
+    .sec-team-detail{
+        display: block;
+    }
+    
     .sec-team-detail img{
         width: 100%; 
         display: block;
+    }
+    
+    .sec-radio h2{
+        text-align: right;
+        /*padding-right: 40px;*/
+    }
+    
+    .sec-radio-detail{
+        display: flex;
+        text-align: right;
+        /*padding-right: 40px;*/
     }
 
     .sec-radio-detail img{
