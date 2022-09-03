@@ -394,12 +394,12 @@ footer p {
     }
 
     .header h2{
-        font-size: 15px;
-        text-align: left;        
+        font-size: 18px;
+        text-align: right;        
     }
     
     main{
-        height: 3500px;
+        height: 3100px;
     }
 
     main h2{
