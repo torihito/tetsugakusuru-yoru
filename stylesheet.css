@@ -422,8 +422,8 @@ footer p {
     }
 
    .sec-about h2{
-    text-align: left;
-    padding-right: 0px;
+        text-align: left;
+        padding-left: 5px;
     }
 
     .sec-about-detail{
@@ -439,7 +439,7 @@ footer p {
 
     .sec-note h2{
         text-align: left;
-        padding-right: 0px;
+        padding-left: 5px;
     }
 
     .sec-note-detail{
@@ -456,7 +456,7 @@ footer p {
 
     .sec-team h2{
         text-align: left;
-        padding-right: 0px;
+       padding-left: 5px;
     }
 
     .sec-team-detail{
@@ -473,7 +473,7 @@ footer p {
 
     .sec-radio h2{
         text-align: left;
-        padding-right: 0px;
+        padding-left: 5px;
     }
 
     .sec-radio-detail{
