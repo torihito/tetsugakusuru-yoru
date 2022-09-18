@@ -300,6 +300,75 @@ main section ul{
     text-align: center;
     color: #3f98ef;
   }
+form{
+    width:460px;
+    margin:0 auto;
+  }
+
+  .item{
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .label{
+    float: left;
+    margin-right: 20px;
+    width:135px;
+    border-left: solid 3px #06039e;
+    padding-left: 10px;
+  }
+
+  .inputs{
+    float: left;
+    width:300px;
+  }
+  input[type="text"],input[type="email"]{
+    border: solid 1px #aaa;
+    border-radius:5px;
+    padding:10px;
+    font-size: 15px;
+  }
+  textarea{
+    border: solid 1px #aaa;
+    border-radius:5px;
+    padding: 10px;
+    height: 160px;
+    font-size: 15px;
+  }
+  
+  .btn-area{
+    text-align: center;
+  }
+
+  input[type="submit"]{
+    background: #055aaa;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+    font-size:17px;
+    font-weight:bold;
+    padding: 10px 20px;
+    margin: 0 5px;
+  }
+
+  /*input, textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  */
+  .contact-form{
+    padding-top: 100px;
+    padding-left: 15px;
+  }
+  
+  h3{
+    text-align: center;
+    font-size:20px;
 
 footer {
     margin-top: 100px;
