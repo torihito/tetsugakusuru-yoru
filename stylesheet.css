@@ -43,7 +43,7 @@ header{
 
 .btn {
     display: inline;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .btn:hover {
@@ -94,6 +94,10 @@ header{
     color: firebrick;
 }
 
+.fa-envelope{
+    color: darkgray;
+}
+
 .header h2{
     text-shadow: 0 0 10px #ffffff,
     0 0 20px #ffffff,
@@ -111,7 +115,7 @@ header{
 
 main {
     /*width: 1170px;*/
-    height: 3000px;
+    height: 3700px;
 }
 
 main h2{
@@ -335,7 +339,8 @@ footer p {
 
     .header h2{
         font-size: 15px;
-        text-align: right;        
+        text-align: right;
+        margin-right: 10px;
     }
     
     main {
@@ -500,5 +505,9 @@ footer p {
     
     main section ul{
         margin-left: 0%;
+    }
+    
+    footer p{
+        padding-right: 50px;
     }
 }
