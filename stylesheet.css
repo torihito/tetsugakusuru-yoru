@@ -302,6 +302,7 @@ main section ul{
   }
 
 footer {
+    height: 300px;
     margin-top: 100px;
     border-top: 1px solid rgb(122, 122, 122);
     padding-top: 30px;
@@ -404,12 +405,12 @@ footer p {
     }
     
     main{
-        height: 3100px;
+        height: 3300px;
     }
 
     main h2{
         margin-top: 40px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
    .sec-about h2{
