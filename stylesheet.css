@@ -9,6 +9,11 @@ header{
     background-position: center;
 }
 
+body{
+    display: block;
+    margin: 0px;
+}
+
 .head_container{
     /*width: 1170px;*/
     padding: 15px;
@@ -144,6 +149,7 @@ main section ul p a {
 .sec-about-detail img{
     width: 60%; 
     display: block;
+    margin-left: 5px;
 }
 
 .sec-note h2{
@@ -160,6 +166,7 @@ main section ul p a {
 .sec-note-detail img{
     width: 60%; 
     display: block;
+    margin-left: 5px;
 }
 
 .sec-team h2{
@@ -176,6 +183,7 @@ main section ul p a {
 .sec-team-detail img{
     width: 60%; 
     display: block;
+    margin-left: 5px;
 }
 
 .sec-radio h2{
@@ -192,6 +200,7 @@ main section ul p a {
 .sec-radio-detail img{
     width: 60%; 
     display: block;
+    margin-left: 5px;
 }
 
 p {
