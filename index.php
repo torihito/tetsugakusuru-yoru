@@ -55,7 +55,7 @@
 	 	</div>
 
 		<div class="input-area">
-	 		<p>お問い合わせ内容</p>
+	 		<p>お悩み・ご相談内容</p>
 	 		<textarea name="contact_body" rows="5" placeholder="例）具体的な内容を記載" required></textarea>
 		</div>
 	 	<div class="input-area">
