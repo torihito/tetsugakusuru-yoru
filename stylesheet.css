@@ -152,6 +152,23 @@ main section ul p a {
     margin-left: 5px;
 }
 
+.sec-book h2{
+    text-align: center;
+    padding-right: 40px;
+}
+
+.sec-book-detail{
+    display: flex;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.sec-book-detail img{
+    width: 60%; 
+    display: block;
+    margin-left: 5px;
+}
+
 .sec-note h2{
     text-align: center;
     padding-right: 40px;
